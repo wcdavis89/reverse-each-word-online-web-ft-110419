@@ -13,5 +13,5 @@ new_string=string.split
 new_string.each do |word|
    reversed.push(word.reverse)
   end
- puts reversed.join(" ")
+  reversed.join(" ")
 end
